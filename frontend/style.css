@@ -1,0 +1,30 @@
+body{
+  background-color: rgb(187, 187, 187); 
+  color: rgba(4, 243, 136, 0.953);
+  padding: 0;  
+  margin: 0;
+}
+
+.header{
+background-color: rgba(66, 127, 234, 0.868);
+display: flex;
+align-items: center;  
+justify-content: space-between;
+background-image: linear-gradient(to right, rgb(66, 127, 234),#00ccff , rgb(205, 211, 12));
+}
+.nav ul{
+  display: flex;
+  align-items: center;  
+  justify-content: space-around ;
+  gap: 20px;
+font-size: 20px;
+}
+ul li{
+  list-style: none;
+}
+.search-input{
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 20px;
+}
